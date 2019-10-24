@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\aspnet_kibana\\aspnet_kibana.csproj": {}
+  },
+  "projects": {
+    "F:\\aspnet_kibana\\aspnet_kibana.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\aspnet_kibana\\aspnet_kibana.csproj",
+        "projectName": "aspnet_kibana",
+        "projectPath": "F:\\aspnet_kibana\\aspnet_kibana.csproj",
+        "packagesPath": "C:\\Users\\Ivan_Taturevich\\.nuget\\packages\\",
+        "outputPath": "F:\\aspnet_kibana\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ivan_Taturevich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\TMS.Fulfilment.API\\TMS.Fulfilment.API\\nuget": {},
+          "F:\\TctClient\\.nuget": {},
+          "F:\\Ticketmaster.VaultClient\\TMS.VaultClient\\TMS.VaultClient\\bin\\Debug": {},
+          "http://maven.platform.tm.tmcs:8081/nexus/service/local/nuget/Venuemaster-EPAM-Releases/": {},
+          "http://maven.platform.tm.tmcs:8081/nexus/service/local/nuget/nuget-internal/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.ElasticSearch": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
